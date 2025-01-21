@@ -55,7 +55,7 @@ btn.addEventListener("click",()=>{
   `
   container.innerHTML=content;
   
-  const urlposter=`http://img.omdbapi.com/?apikey=77502be5&i=${data.imdbID}`
+  const urlposter=`https://img.omdbapi.com/?apikey=77502be5&i=${data.imdbID}`
   return urlposter;
 
 }).then((data)=>{
