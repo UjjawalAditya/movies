@@ -34,7 +34,7 @@ btn.addEventListener("click",()=>{
   
       year = Year.value;
       plot=Plot.value;
-    const url = `http://www.omdbapi.com/?apikey=77502be5&t=${title}&y=${year}&plot=${plot}`;
+    const url = `https://www.omdbapi.com/?apikey=77502be5&t=${title}&y=${year}&plot=${plot}`;
   
     
 
